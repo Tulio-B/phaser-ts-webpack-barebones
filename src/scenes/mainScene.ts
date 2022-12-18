@@ -42,7 +42,7 @@ export class MainScene extends Phaser.Scene {
   preload(): void {
     this.load.spritesheet("sprites", "assets/sprites.png", { frameWidth: 16, frameHeight: 16 });
     this.load.bitmapFont("Upheaval", "assets/Upheaval.png", "assets/Upheaval.fnt");
-    this.load.glsl("stars", "assets/stars.frag");
+    this.load.glsl("stars", "assets/shaders/stars.frag");
   }
 
   create(): void {

@@ -18,7 +18,8 @@ function createWindow() {
   mainWindow.loadFile("index.html");
   mainWindow.removeMenu();
 
-  mainWindow.webContents.openDevTools();
+  // Uncomment this line if you need the devtools to open on startup
+  // mainWindow.webContents.openDevTools();
 }
 
 // This method will be called when Electron has finished
